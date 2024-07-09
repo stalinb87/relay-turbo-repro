@@ -1,0 +1,6 @@
+{
+  "version": 3,
+  "sections": [
+    {"offset": {"line": 5, "column": 0}, "map": {"version":3,"sources":["/turbopack/[project]/app/page.tsx"],"sourcesContent":["\"use client\";\nimport QueryRoot from \"../components/QueryRoot\";\nimport { RelayEnvironmentProvider } from \"react-relay\";\n/** Add your relevant code here for the issue to reproduce */\nexport default function Home() {\n  return (\n    <RelayEnvironmentProvider environment={{}}>\n      <QueryRoot />\n    </RelayEnvironmentProvider>\n  );\n}\n"],"names":[],"mappings":";;;;;;;;;;;AAAA;;;;AAIe,SAAS;IACtB,qBACE,iTAAC,4NAAA,CAAA,2BAAwB;QAAC,aAAa,CAAC;kBACtC,cAAA,iTAAC;;;;;;;;;;AAGP;KANwB"}},
+    {"offset": {"line": 37, "column": 0}, "map": {"version":3,"sources":[],"names":[],"mappings":"A"}}]
+}
